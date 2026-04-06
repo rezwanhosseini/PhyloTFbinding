@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 import torch.nn.functional as F
-from MotifDiff.util import returnonehot, MEME_probNorm, MCspline_fitting
+from util import returnonehot, MEME_probNorm, MCspline_fitting
 
 
 # ── 1. Load and parse the PFM file ───────────────────────────────────────────
